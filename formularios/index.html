@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/italiano.html" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Formularios</title>
+</head>
+<body bgcolor="##81F7BE" text ="blue">
+    <!-- a importãncia do formulário está relacionada com a interação com o user 
+    colhe informações do usuário:
+    
+    enviar-> finalizar, as aplicações procurarão o destino
+    action-> manda os dados para dentro de um arquivo
+    método get e post
+    
+    post-> é melhor pois  a visisbildade das coisas não é exposta
+    get-> tem uma viisibildade maior, menos seguro, mostra os dados
+    --> 
+    <!-- input -> pegar dados do user 
+    
+    compilada é mais raápido pois é lingaugem de máquina
+    -->
+   <!-- radious eu posso escolher somente um -->
+    <!-- size -> tamanho da caixa, 
+    maxlenght-> tamanaho dos caracterers,número de caracteres aceitos -->
+
+ <center>
+     <h2>Cadastro <img src="imagens/índice.png " alt="" height="20px">    </h2> 
+    
+    <form action="dados.php" method="post" >
+
+        <Strong>  🔹 Login:  </Strong>  <input type="text" placeholder="Login" size="20">
+         <br>
+         <br>
+        <Strong>🔹Senha: </Strong> <input type="password" name="senha" id="" placeholder="senha" maxlength="12">
+         <br>
+         <br>
+
+         <input type="checkbox" name="" id="">Estudante
+         <br>
+         <input type="checkbox" name="" id="">Servidor
+         <br>
+         <input type="checkbox" name="" id="">Professor
+         <br>
+         <input type="checkbox" name="" id="">Secretária
+         <br>
+         <input type="checkbox" name="" id="">globo
+         <br>
+         <input type="checkbox" name="" id="">lobo
+
+         <br>
+         <br>
+         <div text="pink">
+
+            <strong>Selecione turno:  </strong>  
+            <br>
+            <input type="radio" name="mesmo" id=""> Maturino
+            <br>
+            <input type="radio" name="mesmo" id=""> Vespertino
+            <br>
+            <input type="radio" name="mesmo" id=""> Noturno
+            <br>
+            <br>
+            <select name="" id="" multiple>
+               
+            <option value="luciana">luciana</option>
+            <option value="motta">Motta</option>
+            <option value="igor">Igona</option>
+            <br>
+
+         </select>
+         <br>
+         <br>
+      <em>   <p> 💭💭💭Escreva seus comentários 💭💭💭</p> </em>
+         <textarea name="" id="" cols="16" rows="6"></textarea>
+          
+        </div>
+<br>
+<br>
+        
+        
+        <input type="submit" value="Aperte!">
+        <input type="reset" value="limpar">
+        <br>
+     
+         </form>
+         
+       0 <input id="percent"  type="range" min="0" oninput="getElementById('exibepercent').innerHTML=this.value;"
+       max="100" value="0" name="" 
+       
+         ><span id ="exibepercent">100</span>
+         <!-- span é o contrário do p -->
+         <br>
+
+        </center>
+
+   
+     
+</body>
+</html>
