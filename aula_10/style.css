@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(178, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    background-color: rgb(238, 199, 220);
+    text-align:center;
+    text-shadow: 3px 3px 2px rgb(255, 255, 255);
+}
+.container-div{
+    background-color: azure;
+    border-radius: 5%;
+    padding: 3vh;
+    box-shadow: 10px 10px 20px gray;
+    margin: 3vh;
+}
+
+.container-div > p{
+    background-color: rgb(208, 240, 240);
+    border-radius: 5%;
+    text-align: center;
+}
+
+.container-div > p:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.container-div>input{
+    background-color: rgb(235, 160, 200);
+    border-radius: 7px;
+    border: none; 
+}
